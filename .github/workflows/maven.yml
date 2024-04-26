@@ -15,7 +15,7 @@ on: # Triggers
 jobs: # Stages
   build: # Stage("Build")
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v4
@@ -27,4 +27,6 @@ jobs: # Stages
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Tests
+      run: mvn test
 

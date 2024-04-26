@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: gic.i4.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.085 s <<< FAILURE! - in gic.i4.AppTest
+shouldAnswerWithTrue(gic.i4.AppTest)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<-1>
+	at gic.i4.AppTest.shouldAnswerWithTrue(AppTest.java:18)
+
