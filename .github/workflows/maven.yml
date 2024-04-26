@@ -15,7 +15,7 @@ on: # Triggers
 jobs: # Stages
   build: # Stage("Build")
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
